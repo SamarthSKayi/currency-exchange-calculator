@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+* {box-sizing: border-box; color:#fff;}
+
+body {background-color: #070606;font-family: "Roboto", sans-serif;
+      display: flex;flex-direction: column;
+      align-items: center;justify-content: center;
+      height: 100vh;margin: 0;padding: 20px;
+      background-image: url("./exchange-currency.jpg");
+      background-repeat: no-repeat;background-size: cover;}
+
+
+.wrapper {background-image: url("./inr-vs-world.jpg");
+  padding: 2rem;border-radius: 10px;
+  display: flex;flex-direction: column; align-items: center;
+  justify-content: center;background-repeat: no-repeat;
+  background-size: cover;opacity: 0.9;}
+
+h1 {color: whitesmoke ;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;}
+
+p {text-align: center;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
+
+.btn {color: #fff;
+  background-color: black;cursor: pointer;
+  border-radius: 5px;font-size: 19px;
+  padding: 10px 12px;margin-left: 168px;
+}
+
+.money-img {
+  width: 150px;
+  margin: auto 0;}
+
+.currency {
+  padding: 40px 0;display: flex;
+  align-items: center;justify-content: space-between;}
+
+.currency select {
+  padding: 10px 20px 10px 10px;border: 3px solid #181717;
+  font-size: 16px;text-align: center;
+  margin-left: 23px;color: #070606;
+ transition:background-color 0.8s;font-weight: bold;
+  border-radius: 15px;}
+
+.currency select:hover{background-color: rgb(14, 15, 14); color: #fff;}
+
+.currency input {
+  border: 0;background: transparent;
+  color: #ffffff;
+  font-size: 30px;text-align: right;}
+
+.swap-rate-container {
+  display: flex; align-items: center;
+  justify-content: space-between;}
+
+.rate {
+  color:#ffffff;
+  font-size: 16px;padding: 0 10px;
+  font-family: 'Times New Roman', Times, serif;}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+@media (max-width: 600px) {
+  .currency input {
+    width: 200px;
+  }
+  .money-img {
+  width: 75px;
+}
+}
+
+.pp{font-size: 13px; color:beige;
+  padding: 0;margin: 0;}
+
+
